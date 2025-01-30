@@ -6,7 +6,7 @@
 
 int main() {
     string check;
-    scanf("%s", $check);
+    scanf("%s", &check);
     printf("%s", check);
     return 0;
 }
