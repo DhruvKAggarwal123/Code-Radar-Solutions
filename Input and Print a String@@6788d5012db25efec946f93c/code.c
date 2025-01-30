@@ -7,6 +7,6 @@
 int main() {
     string check;
     scanf("%s", &check);
-    printf("%s", check);
+    printf("Ou entered: %s", check);
     return 0;
 }
