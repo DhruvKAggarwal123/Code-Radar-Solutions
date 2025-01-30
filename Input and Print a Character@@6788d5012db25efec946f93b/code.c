@@ -6,6 +6,6 @@
 
 int main() {
     char aplha;
-    printf("You entered: %c", aplha);
+    printf("You entered: %s", aplha);
     return 0;
 }
