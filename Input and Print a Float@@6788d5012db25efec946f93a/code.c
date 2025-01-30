@@ -7,6 +7,6 @@
 int main() {
     float number;
     scanf("%f" ,& number);
-    printf("%s", welcome());
+    printf("%s", number);
     return 0;
 }
