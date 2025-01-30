@@ -6,7 +6,7 @@
 
 int main() {
     int num1 ,num2, num3;
-    f
+    
     scanf("%d   %d   %d" , &num1 , &num2 , &num3);
     fin  = (num1 + num2 + num3 ) / 3 ;
     
