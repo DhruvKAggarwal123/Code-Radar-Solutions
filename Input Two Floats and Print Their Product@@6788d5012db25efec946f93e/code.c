@@ -5,8 +5,8 @@
 // }
 
 int main() {
-    float num;
-    scanf("%f" , &num);
+    float num , num1 ;
+    scanf("%f  %f"  , &num , &num1);
     printf("Product: %.2f", num);
     return 0;
 }
