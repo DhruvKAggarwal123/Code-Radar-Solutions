@@ -6,7 +6,7 @@
 
 int main() {
     char aplha;
-    scanf("%s", &aplha)
+    scanf("%s", &aplha);
     printf("You entered: %s", aplha);
     return 0;
 }
