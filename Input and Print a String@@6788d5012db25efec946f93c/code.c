@@ -5,7 +5,7 @@
 // }
 
 int main() {
-    string check;
+    char check;
     scanf("%s", &check);
     printf("You entered: %s", check);
     return 0;
