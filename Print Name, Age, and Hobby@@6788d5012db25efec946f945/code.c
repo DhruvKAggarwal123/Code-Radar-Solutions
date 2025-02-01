@@ -7,7 +7,7 @@
 int main() {
 
     char n[100] , h[100];
-    int a
+    int a;
     scanf("%s %d %s", &n , &a , &h);
     printf("Name: %s \n", n);
     printf("Age: %d \n" , a);
