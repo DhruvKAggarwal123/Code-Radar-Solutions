@@ -9,6 +9,6 @@ int main() {
     scanf("%d %d" , &a, &b);
     
 
-    printf("%d",(a>b) ? (a ) : (a<b) ? (b) );
+    printf("%d",(a>b) ? a : b );
     return 0;
 }
