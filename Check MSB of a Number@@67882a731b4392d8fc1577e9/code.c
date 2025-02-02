@@ -5,10 +5,10 @@
 // }
 
 int main() {
-    long a ;
-    scanf("%ld" ,&a);
+    long long a ;
+    scanf("%lld" ,&a);
     int msb = a & (1 <<  (31));
-    if (msb == 0)
+    if (msb == 1)
     printf("Set");
     else
     printf("Not Set");
