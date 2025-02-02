@@ -5,7 +5,7 @@
 // }
 
 int main() {
-    int a ;
+    unsigned int a ;
     scanf("%d" , &a);
     printf("%d", __builtin_clz((unsigned int)a));
     return 0;
