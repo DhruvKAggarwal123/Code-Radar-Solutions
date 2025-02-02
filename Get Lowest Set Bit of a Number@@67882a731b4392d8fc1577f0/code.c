@@ -7,11 +7,10 @@
 int main() {
     int a ;
     scanf("%d", &a) ; 
-    int position = 0;
-    while ((a & 1 ) == 0) {
-        a >> = 1 ;
-        position++ ; 
-    }
-    printf("%d", position);
+    if ( a == 0 ){
+        printf("-1");
+        return 0 ;
+    }    
+    printf("%d", __builtin_ctz(a));
     return 0;
 }
