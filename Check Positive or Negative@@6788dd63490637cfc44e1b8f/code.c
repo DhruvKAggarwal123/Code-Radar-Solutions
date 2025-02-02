@@ -7,7 +7,9 @@
 int main() {
     int a ;
     scanf("%d" , &a) ; 
-
-    printf("%s", (a>0)? "Positive" : "Negative" : "Zero");
+    if (a == 0)
+    printf("Zero");
+    else
+    printf("%s", (a>0)? "Positive" : "Negative" );
     return 0;
 }
