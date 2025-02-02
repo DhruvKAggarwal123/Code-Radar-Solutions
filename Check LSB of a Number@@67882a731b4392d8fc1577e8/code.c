@@ -7,6 +7,10 @@
 int main() {
     int a , b;
     scanf("%d %d " , &a , &b);
-    printf("%d", a & 1);
+    int lsb = a & 1 ;
+    if ( lsb ==1 )
+    printf("True");
+    else
+    printf("False" );
     return 0;
 }
