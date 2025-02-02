@@ -9,8 +9,8 @@ int main() {
     scanf("%d %d " , &a , &b);
     int lsb = a & 1 ;
     if ( lsb ==1 )
-    printf("True");
+    printf("Set");
     else
-    printf("False" );
+    printf("Not Set" );
     return 0;
 }
