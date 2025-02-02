@@ -8,6 +8,6 @@ int main() {
     int a ;
     scanf("%d" , &a) ; 
 
-    printf("%s", (a>0)? "Positive" : "Negative" : Zero);
+    printf("%s", (a>0)? "Positive" : "Negative" : "Zero");
     return 0;
 }
