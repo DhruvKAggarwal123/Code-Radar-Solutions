@@ -6,6 +6,6 @@ int main() {
     for (int i = 31 , i >= 0 ; i--){
         printf("%d", (a >> 1) & 1);
     }
-    // printf("%s", welcome());
+    printf("\n", );
     return 0;
 }
