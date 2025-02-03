@@ -10,7 +10,7 @@ int main() {
     int aa = a*a;
     int bb = b*b ;
     int cc = c*c;
-    if ( cc = aa + bb )
+    if ( aa + bb == cc)
     printf("Valid");
     else
     printf("Invalid");
