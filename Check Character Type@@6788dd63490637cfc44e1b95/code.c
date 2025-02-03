@@ -6,8 +6,8 @@ int main() {
     scanf("%c" , &a);
     if (isaplha(a)){
         if ( a == "a" || 'e' || 'i' || 'o'|| 'u'|| 'A' || 'E' || 'I' || 'O' || 'U')
-        printf("Vowel");
-        else 
+        printf("Vowel");}
+        else {
         printf("Consonant");
     }
     else if ( ifdigit(a))
