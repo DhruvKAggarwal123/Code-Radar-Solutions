@@ -2,8 +2,7 @@
 
 int main() {
     int num, i, flag = 0;
-    printf("Enter an integer greater than 1: ");
-    scanf("%d", &num);
+     scanf("%d", &num);
 
     // Check if num is greater than 1
     if (num > 1) {
