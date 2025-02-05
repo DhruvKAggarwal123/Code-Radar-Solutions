@@ -15,9 +15,9 @@ int main() {
         }
         // If flag is 0, num is a prime number
         if (flag == 0) {
-            printf("%d is a prime number.\n", num);
+            printf("Prime ");
         } else {
-            printf("%d is not a prime number.\n", num);
+            printf(" Not Prime ");
         }
     } else {
         printf("%d is not a valid input. Enter a number greater than 1.\n", num);
